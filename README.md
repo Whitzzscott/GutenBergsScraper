@@ -34,3 +34,5 @@ The second part of the constructor, `10` and `3`, represents:
 - `3`: The number of retry attempts in case a request fails. If a book fails to scrape, the scraper will retry up to 3 times before it gives up.
 
 Once you've set this up, calling `scraper.scrape()` will start the scraping process based on the provided configuration. You can choose the output format to be CSV, JSON, or TXT as per your preference.
+
+To use it first install the package by running `npm i gutenbergscraper` once run you can directly type in the command prompt or powershell `npm i` then `npm run start` and your done~!
