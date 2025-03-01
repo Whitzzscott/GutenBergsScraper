@@ -1,0 +1,30 @@
+{
+  "name": "gutenbergscraper",
+  "version": "1.0.0",
+  "description": "A Scraper for Project Gutenberg allowing you to use it for scraping data into datasets, very customizable and friendly",
+  "keywords": [
+    "Scraper",
+    "Gutenberg"
+  ],
+  "license": "ISC",
+  "author": "WhitzScott",
+  "type": "commonjs",
+  "main": "./dist/Scraper.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "concurrently \"tsc\" \"node ./dist/index.js\" \"node ./dist/Scraper.js\""
+  },
+  "devDependencies": {
+    "@types/cli-progress": "^3.11.6",
+    "@types/node": "^22.13.8",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "axios": "^1.8.1",
+    "body-parser": "^1.20.3",
+    "cheerio": "^1.0.0",
+    "cli-progress": "^3.12.0",
+    "concurrently": "^9.1.2",
+    "express": "^4.21.2"
+  }
+}
