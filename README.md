@@ -2,7 +2,7 @@
 
 The Gutenberg Scraper is a tool designed to scrape content from Project Gutenberg. But how does it work?
 
-The Gutenberg Scraper uses parallelism and other technologies to speed up the scraping process for Node.js applications. It is primarily built with TypeScript.
+The Gutenberg Scraper uses parallelism and other technologies to speed up the scraping process for Node.js applications, meaning you can directly scrape 50 books in less than a minute . It is primarily built with TypeScript.
 
 If you'd like to use this scraper, here's an example of how to set it up:
 
